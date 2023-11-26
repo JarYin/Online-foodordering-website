@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#catagory1{
+    transition: .3s ease-in-out;
+}
+
+
+

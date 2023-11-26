@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container {
+    max-width: 1365px;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+
+}
+
+.nav-grid{
+    display: grid;
+    grid-template-columns: 255px 1fr;
+}
+
+.logo{
+    color: green;
+}
+
+header {
+    width: 100%;
+    height: fit-content;
+    background-color:whitesmoke ;
+}
+
+ul.menu{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+
+.menu li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: ease-in-out;
+}
+
+.menu li a:hover{
+    color: aqua;
+}
